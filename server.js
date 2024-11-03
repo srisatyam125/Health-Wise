@@ -68,7 +68,7 @@ app.post("/register", checkNotAuthenticated, async (req, res) => {
 });
 
 function usernameError() {
-  alert("ONLY LETTERS IN USERNAME");
+  alert("PLEASE ONLY USE LETTERS IN USERNAME");
 }
 function emailError() {
   alert("Invalid Email");
